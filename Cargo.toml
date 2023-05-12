@@ -1,0 +1,21 @@
+[package]
+name = "hive-test-server"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+
+# TODO: Reduce the number of dependencies used
+[dependencies]
+actix-web = "4.3.1"
+image = "0.24.6"
+actix-test = "0.1.1"
+actix-rt = "2.8.0"
+serde = { version = "1.0", features = ["derive"] }
+futures = "0.3"
+tempfile = "3.3.0"
+bytes = "1.0"
+lazy_static = "1.4.0"
+
+[dev-dependencies]
